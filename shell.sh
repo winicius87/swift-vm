@@ -31,6 +31,8 @@ if [ ! -f "$FILE" ]; then
 fi
 
 
+sed -i "s/yesencrypt/sha512/g" /etc/pam.d/common-password
+
 sed -i "s/isellemails.com/$3/g" /etc/postfix/main.cf
 #:27:smtpd_tls_cert_file = /etc/letsencrypt/live/isellemails.com/fullchain.pem
 #/etc/postfix/main.cf:28:smtpd_tls_key_file = /etc/letsencrypt/live/isellemails.com/privkey.pem

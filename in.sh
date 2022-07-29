@@ -5,7 +5,7 @@ then
 	    exit 1
 fi
 
-#apt install $(cat ./i.list)
+#apt install $(cat ./installed_packages.list)
 #mkdir -p /var/www/html/
 #mysqldump -uroot -p --flush-privileges --routines --all-databases > SQLDump.sql
 sshpass -p "$2" rsync -avI root@$1:/var/spool/cron/crontabs/root /var/spool/cron/crontabs/
