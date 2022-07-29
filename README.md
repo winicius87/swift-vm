@@ -16,14 +16,18 @@ x86, amd64, x86_64, and raspberry pi
 
 *Starting with a fresh install of Ubuntu 22.04 or a recent version.
 Install the packages using the command:
+
 apt install $(cat ./installed_packages.list)
 
 Copy files from swift-vm directory (etc, home, and var) to your system
 
 Execute the following commands
 
+
 ./cert.sh domain_com
+
 mysql --host=localhost --user=root -p < "SQLDump.sql"
+
 ./shell current_pw new_pw domain_com
 
 The production system should be up and running
@@ -31,5 +35,7 @@ The production system should be up and running
 *Starting with the VM
 Execute the following commands
 
+
 ./cert.sh domain_com
+
 ./shell current_pw new_pw domain_com
