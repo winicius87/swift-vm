@@ -1,0 +1,31 @@
+<?php
+/**
+ * Lastlogin configuration file.
+ */
+
+// Default number of seconds to show the lastlogin info at login.
+$config['lastlogin_timeout'] = 15;
+
+// Number of entries to show in user login history.
+$config['lastlogin_lastrecords'] = 20;
+
+// Use geolocation plugin (boolean).
+$config['lastlogin_geolocation'] = false;
+
+// Resolve names with DNS (boolean).
+$config['lastlogin_dns'] = true;
+
+// Check if IP is a TOR-network exit point (boolean).
+$config['lastlogin_tor'] = true;
+
+// TOR-network DNS suffix
+$config['lastlogin_tor_suffix'] = ".ip-port.exitlist.torproject.org";
+
+// TOR-network IP
+$config['lastlogin_tor_ip'] = "127.0.0.2";
+
+// Mask IP? (for GDPR)
+$config['lastlogin_mask_ip'] = false;
+
+// Save User-Agent information?
+$config['lastlogin_useragent'] = true;

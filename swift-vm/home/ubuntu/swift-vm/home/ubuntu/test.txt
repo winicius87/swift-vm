@@ -1,0 +1,11 @@
+message_size_limit = 61865984
+another variable
+
+$config['max_message_size'] = '673M'
+
+upload_max_filesize = 59M
+post_max_size = 15M
+max_execution_time = 600
+max_input_time = 600
+;memory_limit = 1024M
+memory_limit = 1024M

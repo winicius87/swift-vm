@@ -1,0 +1,33 @@
+[DEFAULT]
+destemail = vinny@isellemails.com
+sender = vinny@isellemails.com
+
+bantime = -1
+# A host is banned if it has generated "maxretry" during the last "findtime"
+# # seconds.
+findtime  = 1d
+# # "maxretry" is the number of failures before a host get banned.
+maxretry = 2
+
+[sshd]
+enabled = false
+
+[postfix-sasl2]
+enabled = true
+port = smtp,465,submission,imap,imaps,pop3,pop3s
+#action    = action_ip-blacklist[mask=24]
+filter = postfix-sasl2
+logpath = /var/log/mail.log
+
+[dovecot]
+enabled = true
+
+[roundcube-auth]
+enabled  = true
+port     = http,https
+filter   = roundcube-auth
+action   = iptables-multiport[name=roundcube, port="http,https"]
+logpath  = /var/www/html/roundcubemail/logs/userlogins.log
+bantime = 30m
+findtime  = 1d
+maxretry = 3

@@ -1,0 +1,336 @@
+2022-03-08 00:39:07 #4717(main) lua; lua_cfg_transform.lua:161: group excessqp has no symbols
+2022-03-08 00:39:07 #4717(main) lua; lua_cfg_transform.lua:161: group excessb64 has no symbols
+2022-03-08 00:39:07 #4717(main) <>; lua; lua_cfg_transform.lua:510: enable `options.check_all_filters` for neural network
+2022-03-08 00:39:07 #4717(main) <>; lua; lua_cfg_transform.lua:568: converted surbl rules to rbl rules
+2022-03-08 00:39:07 #4717(main) <>; lua; lua_cfg_transform.lua:582: converted emails rules to rbl rules
+2022-03-08 00:39:07 #4717(main) cfg; rspamd_rcl_maybe_apply_lua_transform: configuration has been transformed in Lua
+2022-03-08 00:39:07 #4717(main) <bgtsz4>; cfg; rspamd_config_set_action_score: action add header has been already registered with priority 0, override it with new priority: 0, old score: nan
+2022-03-08 00:39:07 #4717(main) <bgtsz4>; cfg; rspamd_config_set_action_score: action greylist has been already registered with priority 0, override it with new priority: 0, old score: nan
+2022-03-08 00:39:07 #4717(main) <bgtsz4>; cfg; rspamd_config_set_action_score: action reject has been already registered with priority 0, override it with new priority: 0, old score: nan
+2022-03-08 00:39:07 #4717(main) rspamd_regexp_library_init: pcre2 is compiled with JIT for ARM-64 64bit (little endian + unaligned)
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin maps; register webui path query
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin maps; register webui path list
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin maps; register webui path query_specific
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin neural; register webui path learn
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin selectors; register webui path check_selector
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin selectors; register webui path list_transforms
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin selectors; register webui path list_extractors
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; init.lua:58: controller plugin selectors; register webui path check_message
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_language_detector_init: loaded 46 languages, 33122 trigramms
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: internal module chartable is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: internal module chartable is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: internal module dkim is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: internal module dkim is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: internal module regexp is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: internal module regexp is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module antivirus is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module arc is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module asn is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module bayes_expiry from /usr/share/rspamd/plugins/bayes_expiry.lua; digest: ee3b1b1e41
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module clickhouse is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module clustering is enabled but has not been configured
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: clustering disabling unconfigured lua module
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module dcc is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module dkim_signing from /usr/share/rspamd/plugins/dkim_signing.lua; digest: 58702b0f6d
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module dmarc is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module dynamic_conf is enabled but has not been configured
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: dynamic_conf disabling unconfigured lua module
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module elastic is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module emails from /usr/share/rspamd/plugins/emails.lua; digest: 7ecf38ef46
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module external_services is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module force_actions is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module forged_recipients is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module fuzzy_collect is enabled but has not been configured
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: fuzzy_collect disabling unconfigured lua module
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module greylist is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module hfilter from /usr/share/rspamd/plugins/hfilter.lua; digest: d05defaac1
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module history_redis is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module http_headers is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module ip_score is enabled but has not been configured
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: ip_score disabling unconfigured lua module
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module maillist is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module maps_stats is enabled but has not been configured
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: maps_stats disabling unconfigured lua module
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module metadata_exporter is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module metric_exporter is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module mid is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; milter_headers.lua:655: active routines [x-spamd-bar,x-spam-level,authentication-results,remove-spam-flag]
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module milter_headers from /usr/share/rspamd/plugins/milter_headers.lua; digest: 4da9da0ce6
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module mime_types is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module multimap is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module mx_check is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module neural is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module once_received is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module p0f is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/redirectors.inc' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/redirectors.inc' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module phishing from /usr/share/rspamd/plugins/phishing.lua; digest: e3e90faf23
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module ratelimit is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module rbl is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module replies is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module reputation is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module rspamd_update is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module settings from /usr/share/rspamd/plugins/settings.lua; digest: 094d643b66
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module spamassassin is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module spamtrap is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module spf is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module trie is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_config_is_module_enabled: lua module url_redirector is disabled in the configuration
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/spf_dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/spf_dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/dmarc_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/dmarc_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/dkim_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/maps.d/dkim_whitelist.inc' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/local.d/maps.d/spf_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/spf_whitelist.inc.local' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/etc/rspamd/maps.d/spf_whitelist.inc' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_init_lua_filters: init lua module whitelist from /usr/share/rspamd/plugins/whitelist.lua; digest: 42d0cb1154
+2022-03-08 00:39:08 #4717(main) rspamd_url_init: start compiling of 9270 TLD suffixes; it might take a long time
+2022-03-08 00:39:08 #4717(main) rspamd_url_init: initialized 9251 url match suffixes from '/usr/share/rspamd/effective_tld_names.dat'
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; cfg; rspamd_map_parse_backend: map '/var/lib/rspamd/rspamd_dynamic' is not found, but it can be loaded automatically later
+2022-03-08 00:39:08 #4717(main) <daz6fz>; map; rspamd_map_add: added map /var/lib/rspamd/rspamd_dynamic
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_load_items: cannot open file /var/lib/rspamd/symbols.cache, error 2, No such file or directory
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol BITCOIN_ADDR for symbol LEAKED_PASSWORD_SCAM
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol FREEMAIL_FROM for symbol FREEMAIL_REPLYTO_NEQ_FROM_DOM
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol FREEMAIL_REPLYTO for symbol FREEMAIL_REPLYTO_NEQ_FROM_DOM
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol SUBJ_BOUNCE_WORDS for symbol BOUNCE
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol DKIM_CHECK for symbol DKIM_SIGNED
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol R_DKIM_ALLOW for symbol WHITELIST_SPF_DKIM
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol R_SPF_ALLOW for symbol WHITELIST_SPF_DKIM
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol DMARC_CALLBACK for symbol WHITELIST_DMARC
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol R_DKIM_ALLOW for symbol WHITELIST_DMARC
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol R_SPF_ALLOW for symbol WHITELIST_DMARC
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol R_DKIM_ALLOW for symbol WHITELIST_DKIM
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_process_dep: cannot find dependency on symbol R_SPF_ALLOW for symbol WHITELIST_SPF
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_PHISH' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MSBL_EBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ARC_REJECT' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ARC_DNSFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_IP_A' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_SPF_DNSFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DMARC_POLICY_ALLOW' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_DKIM_ALLOW' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_SPAM' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_SPAMHAUS_PBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DIRECT_TO_MX' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'FUZZY_PROB' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_MAILSPIKE_BAD' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_MIXED_CHARSET' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RCVD_IN_DNSWL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_SPF_NEUTRAL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ARC_NA' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'SEM_URIBL_UNKNOWN' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DWL_DNSWL_LOW' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_GOOD' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_ENCRYPTED_ARCHIVE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MW_SURBL_MULTI' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'PH_SURBL_MULTI' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_BOTNET' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DNSWL_BLOCKED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'FORGED_SENDER' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RSPAMD_URIBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_MAILSPIKE_WORST' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_URL_ONLY' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RWL_MAILSPIKE_GOOD' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HOSTNAME_4' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_PROHIBIT' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ABUSE_SURBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_BAD' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'FUZZY_WHITE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_URL_ONELINE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_BAREIP' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_BLOCKED_OPENRESOLVER' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_BADIP' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RCVD_IN_DNSWL_LOW' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_ABUSE_REDIR' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'URIBL_MULTI' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DWL_DNSWL_BLOCKED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HOSTNAME_5' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_ARCHIVE_IN_ARCHIVE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SEM' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ARC_ALLOW' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'URIBL_BLACK' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DMARC_POLICY_REJECT' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MAILSPIKE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_FROMHOST_NORES_A_OR_MX' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RCVD_IN_DNSWL_NONE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_SPAMHAUS_BLOCKED_OPENRESOLVER' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'URIBL_BLOCKED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ONCE_RECEIVED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_BLOCKED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_NOT_FQDN' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_SPF_NA' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_MAILSPIKE_VERYBAD' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SENDERSCORE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DMARC_POLICY_QUARANTINE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_EXE_IN_GEN_SPLIT_RAR' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DWL_DNSWL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SEM_IPV6' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_ABUSE_PHISH' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_BAD_ATTACHMENT' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_ABUSE_MALWARE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_1' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DWL_DNSWL_MED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RWL_MAILSPIKE_NEUTRAL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS_BLOCKED_OPENRESOLVER' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RWL_MAILSPIKE_VERYGOOD' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_FROM_BOUNCE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HOSTNAME_UNKNOWN' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DMARC_NA' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RWL_MAILSPIKE_EXCELLENT' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS_PBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_BLOCKLISTDE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS_SBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_UNKNOWN' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_BLOCKLISTDE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_SPAMHAUS_DROP' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'SURBL_BLOCKED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DWL_DNSWL_HI' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'FUZZY_UNKNOWN' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_DKIM_NA' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_SPAMHAUS_BLOCKED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RCVD_IN_DNSWL_HI' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_ABUSE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_SPF_FAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_SPF_ALLOW' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'URIBL_RED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_SPAMHAUS_SBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ONCE_RECEIVED_STRICT' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'FUZZY_DENIED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'SEM_URIBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS_CSS' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS_XBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_BAD_UNICODE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_5' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HOSTNAME_1' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DWL_DNSWL_NONE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_VIRUSFREE_BOTNET' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_2' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_DKIM_TEMPFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_SPAMHAUS_XBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_RCPT_BOUNCEMOREONE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_NORES_A_OR_MX' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS_BLOCKED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DMARC_POLICY_SOFTFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HOSTNAME_3' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'SEM_URIBL_FRESH15' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_ABUSE_BOTNET' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_SPF_PERMFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RSPAMD_EMAILBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_4' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_DKIM_REJECT' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_FROMHOST_NORESOLVE_MX' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_NIXSPAM' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RWL_MAILSPIKE_POSSIBLE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'ARC_INVALID' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_DOUBLE_BAD_EXTENSION' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MIME_BAD_EXTENSION' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HOSTNAME_2' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'URIBL_GREY' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MAILLIST' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_DKIM_PERMFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'DBL_MALWARE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'MSBL_EBL_GREY' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'CRACKED_SURBL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_MIXED_CHARSET_URL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RECEIVED_SPAMHAUS_CSS' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'R_SPF_SOFTFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'SEM_URIBL_FRESH15_UNKNOWN' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RBL_SPAMHAUS_DROP' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_NORESOLVE_MX' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RCVD_IN_DNSWL_MED' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RDNS_DNSFAIL' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_HELO_3' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'FORGED_RECIPIENTS' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'HFILTER_FROMHOST_NOT_FQDN' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; symcache; rspamd_symcache_validate: symbol 'RDNS_NONE' has its score defined but there is no corresponding rule registered
+2022-03-08 00:39:08 #4717(main) <daz6fz>; map; read_map_file: /var/lib/rspamd/rspamd_dynamic: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <84c5si>; map; read_map_file: /etc/rspamd/local.d/maps.d/spf_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <84c5si>; map; read_map_file: /var/lib/rspamd/spf_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <8m79ek>; map; read_map_file: /etc/rspamd/local.d/maps.d/dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <8m79ek>; map; read_map_file: /var/lib/rspamd/dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <qamb1r>; map; rspamd_map_read_http_cached_file: read cached data for https://maps.rspamd.com/rspamd/dmarc_whitelist_new.inc.zst from /var/lib/rspamd/877aa38dd77ed707d20b2f77d46b905b69a6295a.map, 10817 bytes; next check at: 2022-03-08 04:18:51; last modified on: 2021-12-30 08:00:04; etag: (NULL)
+2022-03-08 00:39:08 #4717(main) <qamb1r>; map; read_map_file: /etc/rspamd/local.d/maps.d/dmarc_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <qamb1r>; map; read_map_file: /var/lib/rspamd/dmarc_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <qamb1r>; map; rspamd_kv_list_fin: read hash of 783 elements from https://maps.rspamd.com/rspamd/dmarc_whitelist_new.inc.zst
+2022-03-08 00:39:08 #4717(main) <dyatkr>; map; rspamd_map_read_http_cached_file: read cached data for https://maps.rspamd.com/rspamd/spf_dkim_whitelist.inc.zst from /var/lib/rspamd/2368c73b937d98513ed72c4b04f4247bda43fdb5.map, 2871 bytes; next check at: 2022-03-08 04:06:30; last modified on: 2021-10-11 22:00:04; etag: (NULL)
+2022-03-08 00:39:08 #4717(main) <dyatkr>; map; read_map_file: /etc/rspamd/local.d/maps.d/spf_dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <dyatkr>; map; read_map_file: /var/lib/rspamd/spf_dkim_whitelist.inc.local: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <dyatkr>; map; rspamd_kv_list_fin: read hash of 237 elements from https://maps.rspamd.com/rspamd/spf_dkim_whitelist.inc.zst
+2022-03-08 00:39:08 #4717(main) <u9r7uu>; map; rspamd_map_read_http_cached_file: read cached data for https://maps.rspamd.com/rspamd/redirectors.inc.zst from /var/lib/rspamd/f3933e67d5f9574a9eaf78cd0a8e99140ecc502e.map, 10348 bytes; next check at: 2022-03-08 03:48:48; last modified on: 2021-08-11 13:26:35; etag: (NULL)
+2022-03-08 00:39:08 #4717(main) <u9r7uu>; map; rspamd_kv_list_fin: read hash of 1071 elements from https://maps.rspamd.com/rspamd/redirectors.inc.zst
+2022-03-08 00:39:08 #4717(main) <48y7dd>; map; read_map_file: /etc/rspamd/local.d/maps.d/redirectors.inc: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <48y7dd>; map; read_map_file: /etc/rspamd/local.d/redirectors.inc: map file is not found; it will be read automatically if created
+2022-03-08 00:39:08 #4717(main) <4dego7>; map; read_map_static: static: read map data, 10 bytes
+2022-03-08 00:39:08 #4717(main) <4dego7>; map; rspamd_radix_fin: read radix trie of 1 elements: ents=1 dup=0 tbm=0 lc=3 mem=1k free=0 waste=0
+2022-03-08 00:39:08 #4717(main) <bgtsz4>; lua; settings.lua:1038: loaded 0 elements of settings
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; main: rspamd 2.7 is starting, build id: release
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; main: cpu features: 
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; main: cryptobox configuration: curve25519(libsodium), chacha20(generic), poly1305(libsodium), siphash(libsodium), blake2(libsodium), base64(ref)
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; main: libottery prf: CHACHA20-CRYPTOBOX
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; main: skip writing pid in no-fork mode
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; main: event loop initialised with backend: epoll
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; spawn_workers: worker of type fuzzy(localhost:11335) is disabled in the config, skip spawning
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (0); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (1); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4788(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2022-03-08 00:39:08 #4788(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2022-03-08 00:39:08 #4788(rspamd_proxy) <7d318e>; main; rspamd_handle_child_fork: starting rspamd_proxy process 4788 (0); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4788(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.8.8 from resolv.conf
+2022-03-08 00:39:08 #4788(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.4.4 from resolv.conf
+2022-03-08 00:39:08 #4788(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 127.0.0.53 from resolv.conf
+2022-03-08 00:39:08 #4788(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_read_hosts_file: processed host file /etc/hosts; 9 records added
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (2); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4789(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2022-03-08 00:39:08 #4789(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2022-03-08 00:39:08 #4789(rspamd_proxy) <7d318e>; main; rspamd_handle_child_fork: starting rspamd_proxy process 4789 (1); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4789(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.8.8 from resolv.conf
+2022-03-08 00:39:08 #4789(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.4.4 from resolv.conf
+2022-03-08 00:39:08 #4789(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 127.0.0.53 from resolv.conf
+2022-03-08 00:39:08 #4789(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_read_hosts_file: processed host file /etc/hosts; 9 records added
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; rspamd_fork_worker: prepare to fork process rspamd_proxy (3); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4790(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2022-03-08 00:39:08 #4790(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2022-03-08 00:39:08 #4790(rspamd_proxy) <7d318e>; main; rspamd_handle_child_fork: starting rspamd_proxy process 4790 (2); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4790(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.8.8 from resolv.conf
+2022-03-08 00:39:08 #4790(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.4.4 from resolv.conf
+2022-03-08 00:39:08 #4790(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 127.0.0.53 from resolv.conf
+2022-03-08 00:39:08 #4790(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_read_hosts_file: processed host file /etc/hosts; 9 records added
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; rspamd_fork_worker: prepare to fork process controller (0); listen on: localhost:11334
+2022-03-08 00:39:08 #4791(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2022-03-08 00:39:08 #4791(rspamd_proxy) <7d318e>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2022-03-08 00:39:08 #4791(rspamd_proxy) <7d318e>; main; rspamd_handle_child_fork: starting rspamd_proxy process 4791 (3); listen on: 127.0.0.1:11332
+2022-03-08 00:39:08 #4791(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.8.8 from resolv.conf
+2022-03-08 00:39:08 #4791(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.4.4 from resolv.conf
+2022-03-08 00:39:08 #4791(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 127.0.0.53 from resolv.conf
+2022-03-08 00:39:08 #4791(rspamd_proxy) <bgtsz4>; cfg; rspamd_dns_read_hosts_file: processed host file /etc/hosts; 9 records added
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; rspamd_fork_worker: prepare to fork process normal (0); listen on: 127.0.0.1:11333
+2022-03-08 00:39:08 #4792(controller) <7d318e>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2022-03-08 00:39:08 #4792(controller) <7d318e>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2022-03-08 00:39:08 #4792(controller) <7d318e>; main; rspamd_handle_child_fork: starting controller process 4792 (0); listen on: localhost:11334
+2022-03-08 00:39:08 #4792(controller) <bgtsz4>; controller; rspamd_controller_password_sane: enable password is not set, so you should filter controller availability by using of firewall or `secure_ip` option
+2022-03-08 00:39:08 #4792(controller) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.8.8 from resolv.conf
+2022-03-08 00:39:08 #4792(controller) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.4.4 from resolv.conf
+2022-03-08 00:39:08 #4792(controller) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 127.0.0.53 from resolv.conf
+2022-03-08 00:39:08 #4792(controller) <bgtsz4>; cfg; rspamd_dns_read_hosts_file: processed host file /etc/hosts; 9 records added
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; rspamd_fork_worker: prepare to fork process normal (1); listen on: 127.0.0.1:11333
+2022-03-08 00:39:08 #4793(normal) <7d318e>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2022-03-08 00:39:08 #4793(normal) <7d318e>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2022-03-08 00:39:08 #4793(normal) <7d318e>; main; rspamd_handle_child_fork: starting normal process 4793 (0); listen on: 127.0.0.1:11333
+2022-03-08 00:39:08 #4793(normal) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.8.8 from resolv.conf
+2022-03-08 00:39:08 #4793(normal) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.4.4 from resolv.conf
+2022-03-08 00:39:08 #4793(normal) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 127.0.0.53 from resolv.conf
+2022-03-08 00:39:08 #4793(normal) <bgtsz4>; cfg; rspamd_dns_read_hosts_file: processed host file /etc/hosts; 9 records added
+2022-03-08 00:39:08 #4717(main) <7d318e>; main; main: listening for control commands on /var/lib/rspamd/rspamd.sock
+2022-03-08 00:39:08 #4794(normal) <7d318e>; main; rspamd_worker_set_limits: use system max file descriptors limit: 1024KiB cur and 1024KiB max
+2022-03-08 00:39:08 #4794(normal) <7d318e>; main; rspamd_worker_set_limits: use system max core size limit: 0B cur and -1B max
+2022-03-08 00:39:08 #4794(normal) <7d318e>; main; rspamd_handle_child_fork: starting normal process 4794 (1); listen on: 127.0.0.1:11333
+2022-03-08 00:39:08 #4794(normal) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.8.8 from resolv.conf
+2022-03-08 00:39:08 #4794(normal) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 8.8.4.4 from resolv.conf
+2022-03-08 00:39:08 #4794(normal) <bgtsz4>; cfg; rspamd_dns_resolv_conf_on_server: parsed nameserver 127.0.0.53 from resolv.conf
+2022-03-08 00:39:08 #4794(normal) <bgtsz4>; cfg; rspamd_dns_read_hosts_file: processed host file /etc/hosts; 9 records added
+2022-03-08 00:39:08 #4792(controller) <awbjum>; rrd; rspamd_rrd_open: rrd file opened: /var/lib/rspamd/rspamd.rrd

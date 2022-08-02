@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bd9b21a2232082fc30270c292535d40a",
+    "packages": [
+        {
+            "name": "dsoares/geolocation",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dsoares/roundcube-geolocation.git",
+                "reference": "5227a07329a94eb36f32117f149e18742027089b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dsoares/roundcube-geolocation/zipball/5227a07329a94eb36f32117f149e18742027089b",
+                "reference": "5227a07329a94eb36f32117f149e18742027089b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "type": "roundcube-plugin",
+            "extra": {
+                "roundcube": {
+                    "min-version": "1.0"
+                }
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Diana Soares",
+                    "email": "diana.soares@gmail.com",
+                    "homepage": "https://github.com/dsoares"
+                }
+            ],
+            "description": "Roundcube plugin to provide geolocation utilities.",
+            "homepage": "https://github.com/dsoares/Roundcube-Plugin-Geolocation",
+            "keywords": [
+                "geo",
+                "mail"
+            ],
+            "time": "2016-06-21T17:16:45+00:00"
+        },
+        {
+            "name": "roundcube/plugin-installer",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roundcube/plugin-installer.git",
+                "reference": "9c66c276b795eea1a32eb864b2c6c1f682cdc027"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roundcube/plugin-installer/zipball/9c66c276b795eea1a32eb864b2c6c1f682cdc027",
+                "reference": "9c66c276b795eea1a32eb864b2c6c1f682cdc027",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Roundcube\\Composer\\RoundcubeInstaller"
+                ]
+            },
+            "autoload": {
+                "psr-0": {
+                    "Roundcube\\Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Bruederli",
+                    "email": "thomas@roundcube.net"
+                },
+                {
+                    "name": "Till Klampaeckel",
+                    "email": "till@php.net"
+                },
+                {
+                    "name": "Philip Weir",
+                    "email": "roundcube@tehinterweb.co.uk"
+                }
+            ],
+            "description": "A composer-installer for Roundcube plugins and skins.",
+            "support": {
+                "issues": "https://github.com/roundcube/plugin-installer/issues",
+                "source": "https://github.com/roundcube/plugin-installer/tree/0.3.1"
+            },
+            "time": "2021-10-24T13:38:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
